@@ -1,0 +1,17 @@
+<% data.map(item=> { %>
+<div class="mainDiv">
+  <div class="virsus">
+    <div>
+      <img class="moviesImage" src="<%= item.image%>" />
+    </div>
+
+    <div>
+      <h1><%= item.title%></h1>
+      <p><%= item.content%></p>
+    </div>
+  </div>
+  <div>
+    <p><%= item.description %></p>
+  </div>
+</div>
+<%})%>
